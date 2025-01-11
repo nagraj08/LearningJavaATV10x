@@ -1,3 +1,5 @@
+package Java_Exercises;
+
 public class AddingTwoNumbers {
     public static int sum(int num1, int num2)
     {
