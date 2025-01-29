@@ -14,7 +14,7 @@ public class lab_05_userdefninonefunc {
 
     }
     static void greet() {
-        System.out.println("Hi I am without para and withour return type");
+        System.out.println("Hi I am without para and without return type");
     }
     static String greet_with_hello() {
         return ("Hi how are you");
