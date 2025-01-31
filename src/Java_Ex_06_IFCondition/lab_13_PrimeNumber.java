@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class lab_13_PrimeNumber {
     public static void main(String[] args) {
+        //Prime Number
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a valid integer");
         if (!sc.hasNextInt()) {
