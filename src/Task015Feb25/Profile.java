@@ -1,6 +1,6 @@
 package Task015Feb25;
 
-public class lab_02_Oops {
+public  class Profile {
     //attributes
     String name;
     int age;
@@ -9,8 +9,8 @@ public class lab_02_Oops {
     long phone_no;
     String address;
     //Methods
-    void sleep();
-    void speak();
-    void eat();
-    void walk();
+    void sleep(){};
+    void speak(){};
+    void eat(){};
+
 }
