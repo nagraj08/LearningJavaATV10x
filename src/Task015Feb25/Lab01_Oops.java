@@ -5,7 +5,7 @@ public class Lab01_Oops {
         Student newstudent = new Student();
         //Student - Class loading
         // newstudent - Object reference
-        //new Student() - Class creation
+        //new Student() - Object creation
         System.out.println(newstudent.name="Nagraj");
         System.out.println(newstudent.rollno=18);
         System.out.println(newstudent.age=47);
