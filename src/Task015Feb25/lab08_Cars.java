@@ -12,7 +12,7 @@ public class lab08_Cars {
             System.out.println("Enter the Year");
             int year_created = sc.nextInt();
 
-           Cars2 motor = new Cars2(model_name,year_created);
+           Car motor = new Car(model_name,year_created);
             System.out.println(motor.model);
             System.out.println(motor.year);
         }
