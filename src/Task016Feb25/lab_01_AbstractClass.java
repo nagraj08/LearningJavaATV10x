@@ -3,7 +3,7 @@ package Task016Feb25;
 public class lab_01_AbstractClass {
     public static void main(String[] args) {
     PrintMyBook myBook = new PrintMyBook();
-    myBook.getDetails("Harry Potter", "J.K.Aowling", "120");
+    myBook.getDetails("Harry Potter", "J.K.Aowling", " 120");
     }
 }
 abstract class book {

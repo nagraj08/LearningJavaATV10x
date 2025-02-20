@@ -1,8 +1,8 @@
-package Task018Feb25;
+package Task018Feb25.InterviewQuestions;
 
 public class InterviewQuestion {
     public static void main(String[] args) {
-        String str = "vision withoutt without action is day dream";
+        String str = "vision without action is day dream";
         String[] strarray = str.split(" ");
         String smallStr = strarray[0];
         String longStr = strarray[0];
@@ -16,11 +16,7 @@ public class InterviewQuestion {
             {
                 longStr = strarray[i];
             }
-
-
-
-
-            }
+        }
 
         System.out.println("Small String is " + smallStr.toUpperCase());
         System.out.println("Long String is " + longStr.toUpperCase());

@@ -6,10 +6,14 @@ public class lab_01_Inheritance_Hierarchical {
         nb.h1();
         nb.home();
         Rupesh rab = new Rupesh();
+        rab.h1();
         rab.h2();
         rab.home();
         Vicky vvb = new Vicky();
+        vvb.h1();
+        vvb.h2();
         vvb.h3();
         vvb.home();
+
     }
 }
