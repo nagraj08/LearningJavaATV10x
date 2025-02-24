@@ -7,16 +7,21 @@ public class labt_20_Exceptions {
         int c = 0;
         try {
             c = b/a;
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
+        } catch (ArithmeticException e) {
+           // throw new RuntimeException(e);
+            System.out.println("cannot / by zero");
         }
         // Unchecked - Arthmatice exception and Null pointer
         // java.lang.ArithmeticException exception for divide by zero in un handeled
         System.out.println(c);
 
         String name = null;
-        name.trim();
+        try {
+            name.trim();
+        } catch (RuntimeException e) {
+            throw new RuntimeException(e);
+            //System.out.println("Cannot invoke \"String.trim()\" because \"name\" is null");
+        }
 
     }
 }
