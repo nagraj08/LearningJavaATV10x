@@ -3,12 +3,12 @@ package Task22Feb25.List;
 import java.util.ArrayList;
 import java.util.List;
 
-
+import static java.util.List.*;
 
 
 public class lab_01_List {
     public static void main(String[] args) {
-        List fruits = new List.of("Apple","Orange","pineapple");
+        List fruits = List.of("Apple", "Orange", "pineapple");
         //static methofs can be fully implemented i Interface
         //Default method can be fully implemented in Interfac
         fruits.add("Cherry");//cannto add
