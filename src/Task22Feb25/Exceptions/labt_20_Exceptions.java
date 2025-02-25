@@ -18,9 +18,9 @@ public class labt_20_Exceptions {
         String name = null;
         try {
             name.trim();
-        } catch (RuntimeException e) {
-            throw new RuntimeException(e);
-            //System.out.println("Cannot invoke \"String.trim()\" because \"name\" is null");
+        } catch (NullPointerException e) {
+            //throw new RuntimeException(e);
+            System.out.println("Cannot invoke \"String.trim()\" because \"name\" is null");
         }
 
     }
