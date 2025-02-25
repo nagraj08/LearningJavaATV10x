@@ -2,9 +2,30 @@ package Task22Feb25.Exceptions;
 
 public class lab_01_ExceptionHandeling {
     public static void main(String[] args) {
-        String ip= args[0];
-        int a = Integer.parseInt(ip);
-        int b = 100/a;
+
+        System.out.println("Start Of the program");
+        String ip= null;
+        try {
+            ip = args[0];
+        } catch (ArithmeticException | NumberFormatException e) {
+           // throw new RuntimeException(e);
+            System.out.println(" Parameter should be Integer value more than 0");
+        }
+
+        int a = 0;
+        try {
+            a = Integer.parseInt(ip);
+        } catch (NumberFormatException e) {
+           // throw new RuntimeException(e);
+            System.out.println(" Parameter should be Integer");
+        }
+        int b = 0;
+        try {
+            b = 100/a;
+        } catch (ArithmeticException e) {
+            //throw new RuntimeException(e);
+            System.out.println(" Parameter should be Integer value more than 0");
+        }
         System.out.println(b);
         System.out.println("End of the Program");
 
