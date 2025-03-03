@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "fe4ea0ef-0432-4482-bdd4-55fda7fed605",
+		"name": "Project2#Restful Broker(API Project)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13036219"
+	},
+	"item": [
+		{
+			"name": "GetBookingIds (No Auth)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restful-booker.herokuapp.com/booking",
+					"protocol": "https",
+					"host": [
+						"restful-booker",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"booking"
+					]
+				},
+				"description": "# Booking - GetBookingIds\n\n**1.0.0**\n\nReturns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids."
+			},
+			"response": []
+		},
+		{
+			"name": "GetBookingIds (No Auth - curl)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restful-booker.herokuapp.com/booking",
+					"protocol": "https",
+					"host": [
+						"restful-booker",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"booking"
+					]
+				},
+				"description": "Generated from cURL: curl -i https://restful-booker.herokuapp.com/booking"
+			},
+			"response": []
+		}
+	]
+}
